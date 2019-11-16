@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.css"
 import { FaGulp } from "react-icons/fa"
 import Navbar from "../components/Globals/Navbar"
 import BackgroundSection from "../components/Globals/BackgroundSection"
+import Info from '../components/Home/Info'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -16,10 +17,8 @@ const IndexPage = ({ data }) => (
       img={data.img.childImageSharp.fluid}
       title="regular joe's"
     />
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <FaGulp />
+    <Info/>
+    
   </Layout>
 )
 
