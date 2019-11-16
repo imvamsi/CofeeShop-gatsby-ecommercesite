@@ -46,3 +46,16 @@ h6 {
   background: var(--mainYellow) !important;
   color: var(--mainBrown) !important;
 }
+.footer {
+  background: var(--mainBrown);
+}
+.about-background {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+
+  background-position: center;
+  background-size: cover;
+}
